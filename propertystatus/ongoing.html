@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Ui Design</title>
+    
+    <style>
+           @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e7e7e7;
+    font-family: 'Muli',sans-serif;
+}
+.course{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,.2);
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    width: 1000px;
+    position: relative;
+    align-self: center;
+    margin: 1rem auto;
+}
+
+.preview{
+    width: 320px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+
+.info{
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+}
+.info p{
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.featuredbtn{
+    background: #464646;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 18px;
+    float: right;
+    position: relative;
+    /* left: 30px; */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.featuredbtn2{
+    background: #DC3545;
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 18px;
+    float: left;
+    position: relative;;
+    top: 10%;
+    /* right: 30px; */
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.info .property-name{
+    margin-top: 1px  0px 0px 0px; 
+    font-size: 20px;
+    color:#Dc3545;
+}
+.property-name span{
+    float: right; 
+    font-size: 15px;
+}
+.img-icon{
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.747);
+}
+.img-icon img{
+    height:12px; width:8px;
+}
+
+.info h3{
+    margin: 23px  0;
+    color: #dc3545;
+}
+.info h3 span{
+    color: rgba(0, 0, 0, 0.747); 
+    font-size:20px;
+}
+
+.rere-id{
+    color: #Dc3545; 
+    float: right; 
+    cursor: pointer; 
+}
+
+
+.featuredimage{
+    width: 280px; 
+    height:250px;
+}
+
+.featuredbtn:hover {
+    background: #fff;
+    color: #464646;
+    border: 1px solid #464646;
+    transform: scale(1.05);
+}
+.featuredbtn2:hover {
+    background: #fff;
+    color: #DC3545;
+    border: 1px solid #DC3545;
+    transform: scale(1.05);
+}
+.featuredbtn2{
+  margin-left: 30px;
+}
+
+
+@media(max-width:935px){
+
+    .featuredbtn2{
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+    .featuredbtn{
+        margin-top: 10px;
+        margin-right: 150px;
+      }
+
+}
+
+@media(max-width:768px){
+    .course{
+        flex-direction: column;
+        width: 90%;
+    }
+    .preview{
+        width: 100%;
+     } 
+    .info h3{
+        margin-top: 10px;
+    }
+   
+}
+
+    </style>
+</head>
+       <h2 style="color: #dc3545; background-color: aliceblue; text-align: center; height: 50px;">Ongoing Project</h2>
+
+
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span>Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2" >Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       
+
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       <div class="course">
+
+               <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+       <div class="course">
+
+             <img src="ex-161.jpg" class="preview img-fluid" id="featuredimage">
+    
+             <div class="info">
+                    <p class="property-name">Project <span> Price range</span></p> 
+                    <span class="img-icon"><img src="Location.png">&nbsp;&nbsp;Location</span>
+                    <h3>Property Type: &nbsp; <span>Property size</span></h3>
+                    <h3>Heading: &nbsp;<span >Anything you want</span></h3>
+                     <p class="rere-id">RERA ID :<span>sk6289195314</span></p>
+                     <br>
+                    <button class="featuredbtn2">Mark As Completed</button>
+                    <button class="featuredbtn2">Remove Property</button>
+                    <button class="featuredbtn">Edit Details</button>
+             </div>
+       </div>
+        
+</body>
+</html>
