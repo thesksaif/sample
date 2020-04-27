@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <title>property_name</title>
+
+
+    <!-- === Bootstrap cdn css file from bootstrap ====== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!--w3school font -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>  <!-- font awsome script script -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- footer-icon -->
+
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="css/projectstyle.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="css/projectresponsive.css">
+
+    <!-- All main css file -->
+    <link rel="stylesheet" href="css/global_css/allmain.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+    <!--  ========== Start Header Area ============== -->
+
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="css/global_css/global_img/logo.png" class="logo" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+                            <li class="nav-item  dropdown">
+                                <a class="nav-link dropdown" href="#" style="color: #DC3545;" id="navbarDropdownMenuLink" activearia-haspopup="true" aria-expanded="false">
+                                  Project
+                                </a>
+                                <div class="dropdown-menu text-uppercase dropdownbg" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="project.html">OnGoing</a>
+                                  <a class="dropdown-item" href="project.html">Completed</a>
+                                  <a class="dropdown-item" href="project.html">Upcoming</a>
+                                </div>
+                              </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!-- ======== Start Enquire Calculator side bar====== -->
+    
+   
+    <div style="float: right;">
+        <nav class="social-sidebar">
+            <ul>
+                <li><a href="#"> <i class="fa fa-phone"> </i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call </a></li>
+                <li  data-toggle="modal" data-target="#exampleModal" style="color:#fff"><i class='far fa-edit'></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enquire </li>
+                <li ><a href="Calulator.html"> <i class="fa fa-calculator"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMI Calculator</a></li>
+           </ul>
+        </nav>
+    </div>
+
+    <!-- ======== End Enquire Calculator side bar====== -->
+  
+
+ <!--================================= form Enquire==============================-->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" style="z-index: 15550; margin-bottom:-1px;" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Enquire Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body form-input-enquire">
+        
+            <div class="row form-group col-lg-11 col-md-11 col-12">
+                <input type="text" placeholder="Full Name" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="row form-group col-lg-11 col-md-11 col-12">
+                <input type="text" placeholder="Email" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="row form-group col-lg-11 col-md-11 col-12">
+                <label>Mobile Number</label>
+                <input type="text" placeholder="Mobile Number" class="form-control" id="inputEmail4">
+            </div>
+
+            <div class="row form-group col-lg-11 col-md-11 col-12">
+                <label for="exampleFormControlTextarea1">Your Question</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger col-lg-6 btn-block" style="margin: 0 auto;">Submit</button>
+        </div>
+        <a href="ReraDesclaimer.html"><p class="enquire-form-reradisclaimer">RERA Desclaimer</p></a>
+      </div>
+    </div>
+    </div>
+    <!---======== End form Enquire ===========-->
+
+    
+ </main>
+
+ 
+ <!--  ========= End Main Area ========= -->
+
+   <div class="centerobject">
+
+   <div class="wrapperproject"> 
+       <div class="row">
+          <div class="col-lg-8 col-12">
+                <section>
+
+                   <div class="container-banner">
+                        <p > <span> Home </span> > <span> project </span> > <span> Property Name</span></p>
+                        <img src="img/property/property_adds/property_name/banner_img/banner-img.jpg" class="img-fluid">
+                    </div>
+
+                   <div class="row">
+                       <div class="col-md-12 mt-3">
+                            <h4 class="property-name">Property Name</h4>
+                            <p class="propety-decription"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus quia, at eligendi sint delectus autem harum accusantium officiis 
+                                architecto aliquam explicabo quasi dolores tempore asperiores dolorem corrupti! Vero, nobis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, ea ad fugiat vel illo aliquid 
+                                voluptate ex temporibus quae, facere cumque? Nulla perspiciatis vel quasi eum hic sint non est! 
+                            </p>
+                       </div>
+                   </div>
+                
+                    <!-- overview section -->
+                    
+                    <section class="Overview-section">  
+                      <h4 class="overview">Overview</h4>
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-md-3 col-6">
+                                    <h5>Property Type</h5>
+                                    <h6 >commercial space</h6>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h5>Property Size </h5>
+                                    <h6>5BHK-8Bhk</h6>
+                                </div> 
+                                <div class="col-md-3 col-6">
+                                    <h5>Rera Status </h5>
+                                    <h6>Approved</h6>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <h5>Rera Id</h5>
+                                    <h6>sak6523195314526</h6>
+                                </div> 
+                            </div> 
+                       </div>
+                   </section> 
+
+                            
+                   <section class="usp-bulletspoint">   
+                        <div class="usp col-lg-12 col-md-12 mt-5">
+                            <h4 class="usp-points">USP (Why Buy Here)</h4>
+                            <ul>
+                                <li>Near by Road</li>
+                                <li>Affordable Price</li>
+                                <li>Easy to Buy</li>
+                                <li>Get Diwali Discount</li>
+                           </ul>
+                        </div>
+                   </section> 
+
+                  <!-- Amenties Section --> 
+
+                   <section class="amenties-section">
+                        <div class="col-lg-12 col-md-12 mt-5">
+                            <h4>Amenties<hr></h4>
+                            <div class="row center-amenties">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Car-parking.png" class="img-fluid">
+                                    <p>Car Parking</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/CCTV-Security-camera.png" class="img-fluid">
+                                    <p>CCTV Security</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Earthquake-Resistant.png" class="img-fluid">
+                                    <p>Earthquake Resistant</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Eco-Friendly.png" class="img-fluid">
+                                    <p>Eco Friendly</p>
+                                </div>
+                           </div>
+
+                            <br>
+
+                            <div class="row center-amenties">
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Emergency-Power-Backup.png" class="img-fluid">
+                                    <p>Emergency Power</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Rooftop-Club-house.png" class="img-fluid">
+                                    <p>Rooftop</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Seniors-Citizen.png" class="img-fluid">
+                                    <p>Seniors Citizen</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-6 amenties-icons">
+                                    <img src="img/property/Amenties_Icons/Solar-Energy.png" class="img-fluid">
+                                    <p>Solar Energy</p>
+                                </div>
+                                <!-- For Custom amenties From Upload section for future -->
+                           </div>
+                           <br>
+                        </div>
+                   </section>
+
+                   <!-- End Amenties Section -->
+
+                   <secttion class="map-embeded-section">
+                      <h4>Map Location</h4>
+                      <div class="embed-responsive embed-responsive-21by9 map-adjust">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630456798!2d88.0495352874353!3d22.675752091875815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1587795569388!5m2!1sen!2sin" width="600" height="450" 
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+                    </secttion>
+
+                   <!--  ============= Project Area ================  -->
+                                
+                   <section class="project-area col-lg-12 col-md-12">
+                        <div class="container">
+                            <div class="project-title">
+                                <h4>Property Gallery</h4>
+                            </div>
+                        
+                           <div class="button-group">
+                                <button type="button" class="active" id="btn1" data-filter=".site-image" style="margin-left: 0px;" >site image</button>
+                                <button type="button" data-filter=".Master-plan">Master plan</button>
+                                <button type="button" data-filter=".Floor-plan">Floor plan</button>
+                                <button type="button" data-filter=".Locality">Locality</button>
+                                <button type="button" data-filter=".Others">Others</button>
+                           </div>
+                            <hr>
+
+                        <div class="adjust-glry">
+                           <div class="row grid">
+                                <!-- Start Site Image-->
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                <div class="our-project">
+
+                                    <!-- Need Editing Here -->
+                                    
+                                    <div class="img property-Gallery-img">
+                                        <a class="test-popup-link" class="img-fluid" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                            <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                    <div class="our-project">
+                                    <div class="img property-Gallery-img">
+                                        <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p2.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p2.jpg" alt="portfolio-1" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p4.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p4.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item site-image">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p5.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p5.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                   </div>
+                                    <br>
+                                </div>
+                                <!-- End Site Image-->
+                                <!-- Master plan Image-->
+
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/lg.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/lg.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/m2.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/m2.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/lg1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/lg1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Master-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/lg-2.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/lg-2.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <!--End Master-plan Image-->
+
+                                <!-- Floor-plan Image-->
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Floor-plan">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <!-- End Floor-plan Image-->
+
+
+                                <!-- Start Locality Image-->
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Locality">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <!-- End Locality Image-->
+
+                                
+                                <!-- Start Others Image-->
+                                
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="col-lg-4 col-md-3 col-sm-4 col-6 element-item Others">
+                                    <div class="our-project">
+                                        <div class="img property-Gallery-img">
+                                            <a class="test-popup-link" href="img/property/property_adds/property_name/property_gallery/p1.jpg">
+                                                <img src="img/property/property_adds/property_name/property_gallery/p1.jpg" alt="portfolio-1" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </div>
+                              <!-- End Others Image-->
+                           </div>
+                        </div>
+                    </div>
+                   </section>
+                </section>  
+            </div> <!-- wrapper row col-end and form should be freeze right side of the wrapper -->
+
+           <div class="col-4">
+                <!-- Get Call back Form -->
+                <section class=" mt-5 d-none d-lg-block d-xl-none d-md-none d-xl-block sticky-top form-box">
+                    <!-- <div class="row"> -->
+                   <div class="w-100 mx-auto">
+                      <form class="form-container">
+                            <p class="note-heading" >Please fill the details We will Get back to you shortly</p>
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">Mobile Number</label>
+                                <input type="number" placeholder="+91-" class="form-control">
+                            </div>
+                           <button type="submit" class="btn btn-danger btn-block mt-5"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbspGet Call Back</button>
+                            
+                           <a href="ReraDesclaimer.html"><p class="enquire-form-reradisclaimer mt-1" >RERA Desclaimer</p></a>
+
+                           <hr class="w-25 mx-auto" style="margin-top:-10px;">
+
+                            
+                           <div class="" >
+                            <div class="conatiner-fluid">
+                                <div class="row">
+
+                                    <div class="col-2 ">
+                                        <img src="img/property/icon_img/Assured1.png" class="assured-icon mng">
+                                    </div>
+                                    
+                                    <div class="col-10">
+
+                                        <h5 class="critical-assure">Assured Callback in 10 min.</h5>
+
+                                        <p class="critical-assure-text"> Our Sales representstive will call you in
+                                            next 10 min. ( Between 9 AM - 7 PM)
+                                        </p>
+
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                            
+                       </form>
+                   </div>
+                    
+                   <!-- DOwnload E-brochure button -->
+                  <a href="www.google.com"> <img src="img/property/icon_img/download1.png" class="brochure-fixed"></a>
+
+               </section>
+
+               <!-- End Get Call back Form -->
+
+            </div>
+            
+            <!--======Mobile View GEt call Back Call Request==========-->
+                
+           <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" style="z-index: 4156410;  margin-bottom:-1px;" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                         <div class="modal-header">
+                             <p  style="color: #b83227; font-size: 15px;" >Please fill the details We will Get back to you shortly</p>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                             </button>
+                         </div>
+                         
+                        <div class="modal-body mobile-call-form" >
+
+                            <div class="row form-group col-lg-11 col-md-11 col-12">
+                                <input type="text" placeholder="Full Name" class="form-control"  tabindex="1">
+                            </div>
+
+                            <div class="row form-group col-lg-11 col-md-11 col-12">
+                                <input type="text" placeholder="Email" class="form-control" id="inputEmail4"  tabindex="2">
+                            </div>
+                            
+                            <div class="row form-group col-lg-11 col-md-11 col-12">
+                                <label>Mobile Number</label>
+                                <input type="number" placeholder="+91-" class="form-control" tabindex="3" >
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-block"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;Get CallBack</button>
+                        </div>
+                       <a href="ReraDisclaimer.html"><p style="color: #DC3545; font-size: 12px; text-align: center; margin-bottom: 40px;">RERA Desclaimer</p></a> 
+
+                       <hr class="w-25 mx-auto" style="margin-top: -20px;">
+
+                        <div class="" >
+                            <div class="conatiner-fluid">
+                                <div class="row">
+
+                                    <div class="col-2 ">
+                                        <img src="img/property/icon_img/Assured1.png" class="assured-icon">
+                                    </div>
+                                    
+                                    <div class="col-10" style="margin-top: -8px;">
+
+                                        <h5 class="heading-assured" >Assured Callback in 10 min.</h5>
+
+                                        <p class="heading-assure-text"> Our Sales representstive will call you in
+                                            next 10 min. ( Between 9 AM - 7 PM)
+                                        </p>
+
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+            <!--====== End Mobile View GEt call Back Call Request=========-->
+            <!-- Freeze Button removed from here And Added to the bottom  -->
+       </div>
+   </div>
+  </div>
+  <button type="submit" data-toggle="modal" data-target="#exampleModal1"  class="btn btn-danger btn-lg btn-block d-lg-none d-xl-none fixed-sk"> <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;Get CallBack</button>
+  <!-- End Get Call back button freeze -->
+
+ <!-- =================   Footer Area   ================= -->
+<div class="footer_position">
+        <div class="main_footer">
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-12">
+                       <div class="footer_box">
+                           <!-- <a href="#"><img src="/logo.png"></a> -->
+                        </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                       <div class="footer_box" style="width: 80%;">
+                           <h2>Link</h2>
+                           <hr>
+                           <ul>
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="about.html">About Us</a></li>
+                               <li><a href="project.html">Our project</a></li>
+                               <li><a href="#">Career</a></li>
+                               <li><a href="contact.html">Contact Us</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                       <div class="footer_box" style="width: 80%;">
+                           <h2>Additional Link</h2>
+                           <hr>
+                           <ul>
+                               <li><a href="LegalDisclaimer.html">Legal Disclaimer</a></li>
+                               <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+                               <li><a href="ReraDesclaimer.html">Rera Disclaimer</a></li>
+                               <li><a href="#">EMI Calculator</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer_box" style="width: 80%;">
+                           <h2>Get In Touch</h2>
+                           <hr>
+                           <div class="footer_address">
+                               <h6><a href="Location Map Link"><i class="fa fa-map-marker"></i>Patliputra colony, patna</a></h6>
+                               <h6><a href="#"><i class="fa fa-phone"></i> +91-926-448-4444</a></h6>
+                               <h6><a href="#"><i class="fa fa-envelope"></i> info@residygroup.com</a></h6>
+                           </div>
+                           <div class="footer_socialicons">
+                               <ul>
+                                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="footer_bottom">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-12">
+                       <p>Copyright &copy; 2020 <a href="">webspidy.in</a> All Rights Reserved.</p>
+                   </div>
+                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-4 col-12">
+                       <p class="text-right">Create your website here: <a href="#">webspidy.in</a></p>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+
+    <!-- ================  End Footer Area   ================= -->
+
+
+  <!--========= from bootstrap cdn link  ====== -->
+  
+  
+  <!-- jQuery library -->
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+               integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+              integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <!--========= End from bootstrap cdn link  ====== -->
+
+
+
+
+
+    <!--  isotope js library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="js/global_js/allmain.js"></script>
+    <script src="js/projectmain.js"></script>
+
+
+</body>
+
+</html>
